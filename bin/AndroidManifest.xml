@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wisatagarut"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.wisatagarut.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Garut"
+            android:label="@string/title_activity_garut" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Wisata"
+            android:label="@string/title_activity_wisata" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Bagendit"
+            android:label="@string/title_activity_bagendit" >
+        </activity>
+       <activity
+            android:name="com.wisatagarut.Cijeruk"
+            android:label="@string/title_activity_cijeruk" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Cipanas"
+            android:label="@string/title_activity_cipanas" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Curug"
+            android:label="@string/title_activity_curug" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Guha"
+            android:label="@string/title_activity_guha" >
+        </activity>
+    	<activity
+            android:name="com.wisatagarut.Papandayan"
+            android:label="@string/title_activity_papandayan" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Paranje"
+            android:label="@string/title_activity_paranje" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Sampiren"
+            android:label="@string/title_activity_sampiren" >
+        </activity>
+        <activity
+            android:name="com.wisatagarut.Ranca"
+            android:label="@string/title_activity_ranca" >
+        </activity>
+    </application>
+
+</manifest>
